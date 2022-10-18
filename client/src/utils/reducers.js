@@ -28,5 +28,5 @@ export const reducer = (state,action) => {
 };
 
 export function useProductReducer(initialState){
-    return useReducer(reducer, initialState);
+    return useReducer(reducer , initialState);
 }
